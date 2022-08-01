@@ -98,7 +98,7 @@ Obwohl es nicht direkt mit dem Konzept des Testens zusammenhängt, wurde die Met
 
 
 
--Dank der während "Request" laufenden Validierungen wollte ich die Verschwendung von Ressourcen minimieren.
+-Dank der Validierungen, die während "Get Request" laufen, konnte ich die Verschwendung von Ressourcen minimieren.
 
 
 
