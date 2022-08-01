@@ -53,13 +53,12 @@ sind und die Suche durch diese Spalte bearbeitet wird.
 verwende.
 
 
-![image](https://user-images.githubusercontent.com/59101253/182144173-9ef27037-a511-44ab-b190-7143de7979f3.png)
-
-![image](https://user-images.githubusercontent.com/59101253/182144180-36f7442d-1bbd-481b-84a4-b34b7729fbec.png)
 
 
 
 
+
+<img width="628" alt="Screenshot 2022-08-01 at 14 19 33" src="https://user-images.githubusercontent.com/59101253/182146240-185c68e5-7d97-466d-acb7-c3a0195828d0.png">
 
  
 
@@ -69,12 +68,11 @@ verwende.
 Obwohl es nicht direkt mit dem Konzept des Testens zusammenhängt, wurde die Methodenvielfalt durch die Gestaltung von Validierungsbestimmungen mit Unit-Test-Methoden erhöht, und gleichzeitig wurden "Stream-Operationen" erwähnt.
 
 
-![image](https://user-images.githubusercontent.com/59101253/182144247-21f707dc-d39f-461a-a310-b1434269edd3.png)
-
-![image](https://user-images.githubusercontent.com/59101253/182144262-3cdf5f53-b7c4-4771-bf4a-4e4932eb9b58.png)
 
 
 
+
+<img width="744" alt="Screenshot 2022-08-01 at 14 19 00" src="https://user-images.githubusercontent.com/59101253/182146166-32f7bc57-25b8-4157-8adb-b68d3c8d0f3c.png">
 
 
  
@@ -87,9 +85,9 @@ Obwohl es nicht direkt mit dem Konzept des Testens zusammenhängt, wurde die Met
 
 -Integrationstest wurde mit einer Datenbank auf AWS durchgeführt (Details folgen später).
 
+<img width="745" alt="Screenshot 2022-08-01 at 14 19 14" src="https://user-images.githubusercontent.com/59101253/182146195-11340839-9b30-4d22-979a-bfd81a6dc008.png">
 
 
- ![image](https://user-images.githubusercontent.com/59101253/182144284-fa707a67-e599-40c9-8fda-679efa9a6ae3.png)
 
 
 
@@ -104,9 +102,9 @@ Obwohl es nicht direkt mit dem Konzept des Testens zusammenhängt, wurde die Met
 
 
 
-![image](https://user-images.githubusercontent.com/59101253/182144310-19b8398f-4d36-4c97-8424-47778efe4361.png)
 
- 
+ <img width="737" alt="Screenshot 2022-08-01 at 14 18 48" src="https://user-images.githubusercontent.com/59101253/182146117-0d262d2c-b055-4944-b0ac-52ac497f1790.png">
+
 
 
 
@@ -114,12 +112,8 @@ Obwohl es nicht direkt mit dem Konzept des Testens zusammenhängt, wurde die Met
 
 
 
- ![image](https://user-images.githubusercontent.com/59101253/182144398-6091eb78-b3dc-4d3f-886f-f065ca2ca42e.png)
 
-
-![image](https://user-images.githubusercontent.com/59101253/182144410-ca55d434-284c-4e53-846f-18a9999af2bf.png)
-
-
+<img width="745" alt="Screenshot 2022-08-01 at 14 18 34" src="https://user-images.githubusercontent.com/59101253/182146075-3cab0328-f7d9-4c0a-824c-f1b32d54257e.png">
 
 
 
@@ -128,11 +122,11 @@ Obwohl es nicht direkt mit dem Konzept des Testens zusammenhängt, wurde die Met
 Sicherheit verlangt wird.
 
 
-![image](https://user-images.githubusercontent.com/59101253/182144537-f5dfaaac-c2ef-4cc8-83db-78c4789c59e0.png)
 
  
 
 
+<img width="522" alt="Screenshot 2022-08-01 at 14 18 20" src="https://user-images.githubusercontent.com/59101253/182146044-e8d597d0-8edb-4538-b00f-71a695001e7d.png">
 
 
 
@@ -144,10 +138,10 @@ Sicherheit verlangt wird.
 verschiedene Fehlermeldungen angezeigt.
 
 
-![image](https://user-images.githubusercontent.com/59101253/182144626-75bea19e-b3a3-4dff-b8a8-86a57ed2df4b.png)
 
  
 
+<img width="491" alt="Screenshot 2022-08-01 at 14 18 09" src="https://user-images.githubusercontent.com/59101253/182146010-a10c210d-2283-459f-8807-6c7a2d0fdc1f.png">
 
  
 
@@ -163,19 +157,9 @@ verschiedene Fehlermeldungen angezeigt.
 
 -Eine einfache Benutzerregistrierung und ein Login-Code wurden entwickelt. Das Passwort ist verschlüsselt und die APIs Connection wird mit JWT bereitgestellt.
 
-![image](https://user-images.githubusercontent.com/59101253/182144992-ab178a6a-8233-477f-bdea-7cbeeec95f65.png)
-
-![image](https://user-images.githubusercontent.com/59101253/182145008-ed5aebd1-3cd8-40c7-b86b-fb5d41ccaecd.png)
-
-![image](https://user-images.githubusercontent.com/59101253/182145020-569497e3-bf80-4638-a8d4-d5b71b600e47.png)
-
-![image](https://user-images.githubusercontent.com/59101253/182145028-0e75b242-2d86-4ff8-bdb7-2bea46db2d6b.png)
-
-![image](https://user-images.githubusercontent.com/59101253/182145042-b5d4127b-b7ae-4c7d-86c4-c900c088a9ee.png)
-
-![image](https://user-images.githubusercontent.com/59101253/182145072-bb93e6e9-82b3-45c2-9531-f7187254035a.png)
 
 
+<img width="800" alt="Screenshot 2022-08-01 at 14 17 27" src="https://user-images.githubusercontent.com/59101253/182145912-fd081b74-ed12-45d9-a84e-356c9c303df8.png">
 
 
 
@@ -184,11 +168,8 @@ verschiedene Fehlermeldungen angezeigt.
 in einer Datenbank gespeichert, die sich in der AWS-Cloud befindet! Ich erwähnte, dass ich einen einfachen Integrationstest über diese Datenbank geschrieben habe!
 
 
-![image](https://user-images.githubusercontent.com/59101253/182145223-da627abc-3997-4320-8fc6-aa27f8db9823.png)
 
-
-
-![image](https://user-images.githubusercontent.com/59101253/182145238-d845fa1e-5079-421d-a69c-2df5edb06468.png)
+<img width="631" alt="Screenshot 2022-08-01 at 14 16 33" src="https://user-images.githubusercontent.com/59101253/182145776-f6d79fe1-e406-4e6b-b185-daadd76f84b8.png">
 
 
 
