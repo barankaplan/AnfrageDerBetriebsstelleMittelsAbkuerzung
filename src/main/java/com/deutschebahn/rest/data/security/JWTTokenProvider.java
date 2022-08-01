@@ -12,8 +12,6 @@ import java.util.Date;
 
 @Component
 public class JWTTokenProvider {
-    //jwtpart2
-
 
     @Value("${app.jwt-secret}")
     private String jwtSecret;
@@ -21,30 +19,19 @@ public class JWTTokenProvider {
     @Value("${app.jwt-expiraton-miliseconds}")
     private int jwtExpirationInMs;
 
-    //generate token
     public String generateToken(Authentication authentication) {
         String username = authentication.getName();
         Date currentDate = new Date();
         Date expireDate = new Date(currentDate.getTime() + jwtExpirationInMs);
 
-        //this is our token !
-        return Jwts.builder().setSubject(username)
-                .setIssuedAt(new Date())
-                .setExpiration(expireDate)
-                .signWith(SignatureAlgorithm.HS512, jwtSecret)
-                .compact();
+        return Jwts.builder().setSubject(username).setIssuedAt(new Date()).setExpiration(expireDate).signWith(SignatureAlgorithm.HS512, jwtSecret).compact();
     }
 
-    //get username from the token
     public String getUserNameFromJWT(String token) {
-        Claims claims = Jwts.parser()
-                .setSigningKey(jwtSecret)
-                .parseClaimsJws(token)
-                .getBody();
+        Claims claims = Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(token).getBody();
         return claims.getSubject();
     }
 
-    //validate jwt token
     public boolean validateToken(String token) {
         try {
             Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(token);

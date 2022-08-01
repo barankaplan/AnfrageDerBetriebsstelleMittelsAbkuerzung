@@ -42,7 +42,6 @@ class OperationOfficeControllerTest {
     @Test
     void givenOperationOffice_whenGetAllOffices_thenReturnOperationOfficesList_Test
             () throws Exception {
-        //given
 
         OperationOffice operationOffice = new OperationOffice().setCode("DB1").setName("Test").setShortName("T").setTyp("typ");
         OperationOffice operationOffice2 = new OperationOffice().setCode("DB2").setName("Test2").setShortName("T2").setTyp("typ2");
@@ -54,10 +53,8 @@ class OperationOfficeControllerTest {
         given(operationOfficeService.getOperationOffices())
                 .willReturn(operationOffices);
 
-        //when
         ResultActions perform = mockMvc.perform(get("/api/betriebsstelle/get"));
 
-        //then
 
         perform.andDo(print()).
                 andExpect(status().isOk()).
