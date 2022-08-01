@@ -205,7 +205,7 @@ zusätzliche Verbesserungen
 - Logging Operations
 
 
--creating custom annotations
+- creating custom annotations
 
      
 - Spring MVC + Angular
