@@ -10,6 +10,8 @@ import com.deutschebahn.rest.data.security.JWTAuthResponse;
 import com.deutschebahn.rest.data.security.JWTTokenProvider;
 import com.deutschebahn.rest.dto.LoginDTO;
 import com.deutschebahn.rest.dto.SignUpDTO;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -27,6 +29,7 @@ import java.util.Collections;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
+
 
     private final AuthenticationManager authenticationManager;
     private final IUserRepository userRepository;
@@ -49,8 +52,6 @@ public class AuthController {
                 loginDTO.getUserNameOrEMail(), loginDTO.getPassword()));
 
         SecurityContextHolder.getContext().setAuthentication(authentication);
-
-        // get token form tokenProvider
         String token = tokenProvider.generateToken(authentication);
 
         return ResponseEntity.ok(new JWTAuthResponse(token));
@@ -59,17 +60,14 @@ public class AuthController {
     @PostMapping("/signup")
     public ResponseEntity<?> registerUser(@RequestBody SignUpDTO signUpDTO) {
 
-        // add check for username exists in a DB
         if (userRepository.existsByUserName(signUpDTO.getUserName())) {
             return new ResponseEntity<>("Username is already taken!", HttpStatus.BAD_REQUEST);
         }
 
-        // add check for email exists in DB
         if (userRepository.existsByEMail(signUpDTO.getEMail())) {
             return new ResponseEntity<>("Email is already taken!", HttpStatus.BAD_REQUEST);
         }
 
-        // create user object
         User user = new User();
         user.setUserName(signUpDTO.getUserName());
         user.setEMail(signUpDTO.getEMail());

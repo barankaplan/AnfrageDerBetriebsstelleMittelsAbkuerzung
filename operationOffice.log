@@ -1,0 +1,152 @@
+2022-08-02 01:26:36,099 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 49539 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-02 01:26:36,100 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-02 01:26:36,157 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-02 01:26:36,157 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-02 01:26:36,769 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-02 01:26:36,824 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2022-08-02 01:26:37,397 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-02 01:26:37,404 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-02 01:26:37,404 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-02 01:26:37,507 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-02 01:26:37,507 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1350 ms
+2022-08-02 01:26:37,713 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-02 01:26:37,795 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-02 01:26:37,949 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-02 01:26:38,019 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-02 01:26:39,857 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-02 01:26:39,876 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-02 01:26:42,109 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-02 01:26:42,120 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 01:26:42,592 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-02 01:26:42,602 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-02 01:26:42,713 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-02 01:26:42,714 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-02 01:26:42,714 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-02 01:26:42,717 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4655c167, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a7af2b2, org.springframework.security.web.header.HeaderWriterFilter@761948ba, org.springframework.security.web.authentication.logout.LogoutFilter@5a296b8f, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@66f4062f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16545db5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a0ba094, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2882d209, org.springframework.security.web.session.SessionManagementFilter@1668b696, org.springframework.security.web.access.ExceptionTranslationFilter@a5a2183, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7094cc67]
+2022-08-02 01:26:43,214 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-02 01:26:43,243 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-02 01:26:43,252 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.728 seconds (JVM running for 8.751)
+2022-08-02 01:27:14,429 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 01:27:14,429 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-08-02 01:27:14,431 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-1] Completed initialization in 1 ms
+2022-08-02 01:27:14,441 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-1] Securing GET /api/betriebsstelle/aamp
+2022-08-02 01:27:14,446 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-1] Set SecurityContextHolder to empty SecurityContext
+2022-08-02 01:27:14,452 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-02 01:27:14,452 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-1] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-02 01:27:14,457 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-1] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-02 01:27:14,457 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-1] Secured GET /api/betriebsstelle/aamp
+2022-08-02 01:27:14,579 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-1] now we are inside of the method called getOperationOfficeByCode : 2022-08-02T01:27:14.578960
+2022-08-02 01:27:14,849 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-1] Cleared SecurityContextHolder to complete request
+2022-08-02 01:37:29,652 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 01:37:29,681 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-02 01:37:29,706 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-02 01:52:14,973 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 51210 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-02 01:52:14,974 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-02 01:52:15,004 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-02 01:52:15,004 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-02 01:52:15,584 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-02 01:52:15,636 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2022-08-02 01:52:16,234 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-02 01:52:16,241 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-02 01:52:16,241 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-02 01:52:16,308 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-02 01:52:16,308 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1303 ms
+2022-08-02 01:52:16,449 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-02 01:52:16,520 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-02 01:52:16,686 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-02 01:52:16,752 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-02 01:52:18,466 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-02 01:52:18,485 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-02 01:52:20,660 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-02 01:52:20,669 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 01:52:21,185 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-02 01:52:21,197 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-02 01:52:21,326 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-02 01:52:21,328 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-02 01:52:21,328 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-02 01:52:21,332 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71ffaf2, org.springframework.security.web.context.SecurityContextPersistenceFilter@35d55c36, org.springframework.security.web.header.HeaderWriterFilter@1be1e8c5, org.springframework.security.web.authentication.logout.LogoutFilter@3b445c5, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@334aa550, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ffee10e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@458d19bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13c8435, org.springframework.security.web.session.SessionManagementFilter@2e45853a, org.springframework.security.web.access.ExceptionTranslationFilter@3219f1bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d20a393]
+2022-08-02 01:52:21,898 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-02 01:52:21,927 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-02 01:52:21,936 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.318 seconds (JVM running for 8.311)
+2022-08-02 01:52:30,866 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 01:52:30,867 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-08-02 01:52:30,870 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-1] Completed initialization in 2 ms
+2022-08-02 01:52:30,879 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-1] Securing GET /api/betriebsstelle/get
+2022-08-02 01:52:30,885 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-1] Set SecurityContextHolder to empty SecurityContext
+2022-08-02 01:52:31,139 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-1] binding parameter [1] as [VARCHAR] - [it@deutschebahn.com]
+2022-08-02 01:52:31,141 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-1] binding parameter [2] as [VARCHAR] - [it@deutschebahn.com]
+2022-08-02 01:52:31,267 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([user_id1_2_] : [BIGINT]) - [1]
+2022-08-02 01:52:31,276 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([e_mail2_2_] : [VARCHAR]) - [it@deutschebahn.com]
+2022-08-02 01:52:31,276 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([password3_2_] : [VARCHAR]) - [$2a$10$sRjYWNF7O9nc7t43Ba./xeHjOEiEjzpnWDDIfcMEFJuDzmAujcFlS]
+2022-08-02 01:52:31,276 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([user_nam4_2_] : [VARCHAR]) - [deutschebahn]
+2022-08-02 01:52:31,296 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-1] binding parameter [1] as [BIGINT] - [1]
+2022-08-02 01:52:31,424 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([role_id1_1_1_] : [BIGINT]) - [1]
+2022-08-02 01:52:31,425 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([name2_1_1_] : [VARCHAR]) - [ROLE_DEUTSCHEBAHN]
+2022-08-02 01:52:31,426 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([user_id1_3_0_] : [BIGINT]) - [1]
+2022-08-02 01:52:31,426 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([role_id2_3_0_] : [BIGINT]) - [1]
+2022-08-02 01:52:31,465 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-1] Authorized filter invocation [GET /api/betriebsstelle/get] with attributes [permitAll]
+2022-08-02 01:52:31,466 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-1] Secured GET /api/betriebsstelle/get
+2022-08-02 01:52:31,565 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-1] TS Class: com.deutschebahn.rest.service.OperationOfficeService. Method: getOperationOffices hat begonnen, @ 2022-08-02T01:52:31.560261 
+2022-08-02 01:52:31,729 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([code1_0_] : [VARCHAR]) - [BE 1]
+2022-08-02 01:52:31,729 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([name2_0_] : [VARCHAR]) - [Erkner Bw]
+2022-08-02 01:52:31,729 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([short_na3_0_] : [VARCHAR]) - [Erkner Bw]
+2022-08-02 01:52:31,729 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([typ4_0_] : [VARCHAR]) - [Werk]
+2022-08-02 01:52:31,730 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([code1_0_] : [VARCHAR]) - [AAMP]
+2022-08-02 01:52:31,730 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([name2_0_] : [VARCHAR]) - [Hamburg Anckelmannsplatz]
+2022-08-02 01:52:31,730 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([short_na3_0_] : [VARCHAR]) - [Anckelmannsplatz]
+2022-08-02 01:52:31,730 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([typ4_0_] : [VARCHAR]) - [Üst]
+2022-08-02 01:52:31,730 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([code1_0_] : [VARCHAR]) - [XBHS]
+2022-08-02 01:52:31,730 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([name2_0_] : [VARCHAR]) - [Heist]
+2022-08-02 01:52:31,731 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([short_na3_0_] : [VARCHAR]) - [Heist]
+2022-08-02 01:52:31,731 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([typ4_0_] : [VARCHAR]) - [Bf]
+2022-08-02 01:52:31,731 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([code1_0_] : [VARCHAR]) - [XCLE]
+2022-08-02 01:52:31,731 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([name2_0_] : [VARCHAR]) - [Lechebnyi]
+2022-08-02 01:52:31,731 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([short_na3_0_] : [VARCHAR]) - [Lechebnyi]
+2022-08-02 01:52:31,732 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([typ4_0_] : [VARCHAR]) - [Bf]
+2022-08-02 01:52:31,732 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([code1_0_] : [VARCHAR]) - [HEA]
+2022-08-02 01:52:31,732 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([name2_0_] : [VARCHAR]) - [Emden Außenhafen]
+2022-08-02 01:52:31,733 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([short_na3_0_] : [VARCHAR]) - [Emden Außenhafen]
+2022-08-02 01:52:31,733 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([typ4_0_] : [VARCHAR]) - [Bf]
+2022-08-02 01:52:31,733 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([code1_0_] : [VARCHAR]) - [HEGL]
+2022-08-02 01:52:31,734 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([name2_0_] : [VARCHAR]) - [Egestorf (b Lüneburg)]
+2022-08-02 01:52:31,734 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([short_na3_0_] : [VARCHAR]) - [Egestorf (Lüneb)]
+2022-08-02 01:52:31,734 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-1] extracted value ([typ4_0_] : [VARCHAR]) - [Ne-bf]
+2022-08-02 01:52:31,853 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-1] TS Class: com.deutschebahn.rest.service.OperationOfficeService. Method: getOperationOffices has beendet, @ 2022-08-02T01:52:31.853060 
+2022-08-02 01:52:31,855 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-1] TS Class: com.deutschebahn.rest.service.OperationOfficeService. Method: getOperationOffices hat gedauert, @ 292 mili-seconds 
+2022-08-02 01:52:31,940 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-1] Cleared SecurityContextHolder to complete request
+2022-08-02 01:54:53,089 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-5] Securing GET /api/betriebsstelle/kfwh
+2022-08-02 01:54:53,089 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-5] Set SecurityContextHolder to empty SecurityContext
+2022-08-02 01:54:53,090 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-02 01:54:53,090 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-5] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-02 01:54:53,091 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-5] Authorized filter invocation [GET /api/betriebsstelle/kfwh] with attributes [permitAll]
+2022-08-02 01:54:53,091 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-5] Secured GET /api/betriebsstelle/kfwh
+2022-08-02 01:54:53,168 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-5] now we are inside of the method called getOperationOfficeByCode : 2022-08-02T01:54:53.168010
+2022-08-02 01:54:53,467 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-5] Cleared SecurityContextHolder to complete request
+2022-08-02 01:55:52,912 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-6] Securing GET /api/betriebsstelle/secured/kfwh
+2022-08-02 01:55:52,912 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-6] Set SecurityContextHolder to empty SecurityContext
+2022-08-02 01:55:53,034 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [1] as [VARCHAR] - [it@deutschebahn.com]
+2022-08-02 01:55:53,034 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [2] as [VARCHAR] - [it@deutschebahn.com]
+2022-08-02 01:55:53,151 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([user_id1_2_] : [BIGINT]) - [1]
+2022-08-02 01:55:53,151 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([e_mail2_2_] : [VARCHAR]) - [it@deutschebahn.com]
+2022-08-02 01:55:53,151 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([password3_2_] : [VARCHAR]) - [$2a$10$sRjYWNF7O9nc7t43Ba./xeHjOEiEjzpnWDDIfcMEFJuDzmAujcFlS]
+2022-08-02 01:55:53,151 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([user_nam4_2_] : [VARCHAR]) - [deutschebahn]
+2022-08-02 01:55:53,152 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [1] as [BIGINT] - [1]
+2022-08-02 01:55:53,270 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([role_id1_1_1_] : [BIGINT]) - [1]
+2022-08-02 01:55:53,271 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([name2_1_1_] : [VARCHAR]) - [ROLE_DEUTSCHEBAHN]
+2022-08-02 01:55:53,271 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([user_id1_3_0_] : [BIGINT]) - [1]
+2022-08-02 01:55:53,271 [TRACE] org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8082-exec-6] extracted value ([role_id2_3_0_] : [BIGINT]) - [1]
+2022-08-02 01:55:53,273 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-6] Authorized filter invocation [GET /api/betriebsstelle/secured/kfwh] with attributes [permitAll]
+2022-08-02 01:55:53,273 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-6] Secured GET /api/betriebsstelle/secured/kfwh
+2022-08-02 01:55:53,280 [DEBUG] org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor [http-nio-8082-exec-6] Authorized ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException; target is of class [com.deutschebahn.rest.controller.OperationOfficeController] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-02 01:55:53,281 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-6] TS Class: com.deutschebahn.rest.service.OperationOfficeService. Method: getOperationOfficeByCodeAdmin hat begonnen, @ 2022-08-02T01:55:53.281622 
+2022-08-02 01:55:53,542 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [1] as [VARCHAR] - [KFWH]
+2022-08-02 01:55:53,697 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [1] as [VARCHAR] - [Friedrich-Wilhelms-Hütte]
+2022-08-02 01:55:53,697 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [2] as [VARCHAR] - [F-W-Hütte]
+2022-08-02 01:55:53,697 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [3] as [VARCHAR] - [Bft]
+2022-08-02 01:55:53,697 [TRACE] org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8082-exec-6] binding parameter [4] as [VARCHAR] - [KFWH]
+2022-08-02 01:55:54,080 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-6] TS Class: com.deutschebahn.rest.service.OperationOfficeService. Method: getOperationOfficeByCodeAdmin has beendet, @ 2022-08-02T01:55:54.080846 
+2022-08-02 01:55:54,081 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-6] TS Class: com.deutschebahn.rest.service.OperationOfficeService. Method: getOperationOfficeByCodeAdmin hat gedauert, @ 799 mili-seconds 
+2022-08-02 01:55:54,082 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-6] Cleared SecurityContextHolder to complete request
+2022-08-02 01:56:04,122 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 01:56:04,124 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-02 01:56:04,135 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

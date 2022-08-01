@@ -29,7 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@ContextConfiguration(classes = {AuthenticationManager.class, IUserRepository.class, OperationOfficeController.class})
+@ContextConfiguration(classes = {OperationOfficeController.class})
 @WebMvcTest(excludeAutoConfiguration = {SecurityAutoConfiguration.class})
 class OperationOfficeControllerTest {
     @Autowired
