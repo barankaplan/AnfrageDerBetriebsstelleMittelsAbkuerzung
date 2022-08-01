@@ -207,28 +207,25 @@ zusätzliche Verbesserungen
 
 
 
-·      
-versioning and documentation of APIs 
+- versioning and documentation of APIs 
 
 
 
-·      
-Dockerizing Jar files and run on AWS ECS
+- Dockerizing Jar files and run on AWS ECS
 
 
 
-·      
-Different Grant Types Using Oauth2
+
+- Different Grant Types Using Oauth2
 
 
 
-·      
-Logging Operations
+    
+- Logging Operations
 
 
-
-·      
-Spring MVC + Angular
+     
+- Spring MVC + Angular
 
 
 
