@@ -29,7 +29,7 @@ public class TrackExecutionTimeAspect {
         LocalDateTime endTime= LocalDateTime.now();
         logger.info("TS Class: "+className+". Method: "+methodName+" has beendet, @ {} ",endTime);
 
-        logger.info("TS Class: "+className+". Method: "+methodName+" hat gedauert, @ {} mili-seconds ", ChronoUnit.MILLIS.between(startTime,endTime));
+        logger.info("TS Class: "+className+". Method: "+methodName+" hat gedauert, @ {} milliseconds ", ChronoUnit.MILLIS.between(startTime,endTime));
 
         return object;
     }
