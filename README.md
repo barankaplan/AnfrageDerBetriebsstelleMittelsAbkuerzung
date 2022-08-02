@@ -182,13 +182,28 @@ unterschiedlichen Zeiten schreibt, wird nur 1 aufgenommen!
 ![image](https://user-images.githubusercontent.com/59101253/182145259-42fc0b7f-9544-4c0d-99c5-7c3721018700.png)
 
 
+-In der Datei application.properties werden Logging-Level-Anpassungen für verschiedene Klassen über die Slf4j-API vorgenommen.
 
 
-zusätzliche Verbesserungen
+<img width="889" alt="Screenshot 2022-08-02 at 02 14 26" src="https://user-images.githubusercontent.com/59101253/182265613-36aee93d-ece8-4bcb-9858-31de6b8b5c2b.png">
+
+-"Logging data" werden in einem benutzerdefinierten Format in operationOffice.log gespeichert. Die maximale Dateigröße, die maximale Gesamtgröße der Logging-Daten und die Aufbewahrungszeit werden angegeben. Der Logging-Verlauf wird bei jedem Programmstart gelöscht (er wird nicht gelöscht, wenn er innerhalb des nächsten Tages gestartet wird).
+
+<img width="902" alt="Screenshot 2022-08-02 at 02 13 51" src="https://user-images.githubusercontent.com/59101253/182265562-d4794711-5954-4fe7-a7df-f8b8177d8fec.png">
 
 
 
-- versioning and documentation of APIs 
+
+-Es wird eine einfache Logging auf Methodenebene durchgeführt. Außerdem wird die Logging auf Methodenebene mithilfe des AOP-Ansatzes mit benutzerdefinierter Annotation entworfen!
+
+<img width="953" alt="Screenshot 2022-08-02 at 02 12 55" src="https://user-images.githubusercontent.com/59101253/182265482-2361cb57-7ea5-431a-b877-401dfd307be3.png">
+
+
+Zusätzliche Verbesserungen
+
+
+
+- Versioning and documentation of APIs 
 
 
 
@@ -196,16 +211,13 @@ zusätzliche Verbesserungen
 
 
 
-
 - Different Grant Types Using Oauth2
 
-
-
     
-- Logging Operations
+- Logging Operations and AOP Approach (added on 02.08.22)
 
 
-- creating custom annotations
+- Creating custom annotations (added on 02.08.22)
 
      
 - Spring MVC + Angular
