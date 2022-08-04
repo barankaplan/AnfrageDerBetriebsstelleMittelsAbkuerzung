@@ -200,14 +200,14 @@ unterschiedlichen Zeiten schreibt, wird nur 1 aufgenommen!
 
 
 -04.08.22
--Am Anfang des Projekts stand die Idee, dass sich bei jeder Abfrage die csv-Daten ändern könnten, sodass die csv-Datei direkt Zeile für Zeile gelesen wird, um die aktuellsten Daten zu übertragen.
+
+-Am Anfang des Projekts stand die Idee, dass die csv-Daten sich bei jeder Abfrage möglicherweise ändern könnten, sodass wolte ich die csv-Datei direkt Zeile für Zeile einlesen, um die aktuellsten Daten zu übertragen.
 
 <img width="717" alt="Screenshot 2022-08-05 at 00 07 06" src="https://user-images.githubusercontent.com/59101253/182960983-88bc722c-4be1-4932-beaf-9e660747cd99.png">
 
 
 
-
-Zusätzlich wurde nach dem einmaligen Auslesen der csv-Datei der Link http://localhost:8082/api/betriebsstelle/collection/{code} angelegt, um die Daten statisch zu halten und so die Daten in der Collection auszulesen.
+-Deswegen wurde nach dem einmaligen Auslesen der csv-Datei der Link http://localhost:8082/api/betriebsstelle/collection/{code} angelegt, um die Daten statisch zu halten und so die Daten in der Collection auszulesen.
 
 <img width="675" alt="Screenshot 2022-08-05 at 00 07 29" src="https://user-images.githubusercontent.com/59101253/182961033-3bded8c1-4bdf-4073-bc59-71e1426fb3b6.png">
 
