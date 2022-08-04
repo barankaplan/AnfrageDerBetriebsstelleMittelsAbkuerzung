@@ -38,7 +38,16 @@ public class OperationOfficeController {
                                                           @Size(max = 6, min = 2, message = "Die Abkürzung muss mindestens 2 Zeichen und maximal 6 Zeichen enthalten!")
                                                           @Pattern(regexp = "^[^0-9][a-zA-Z0-9 ]*")
                                                           @Valid String code) throws IOException {
-        return ResponseEntity.ok(iOperationOfficeService.getOperationOfficeByCode(code.trim()));
+        return ResponseEntity.ok(iOperationOfficeService.getOperationOfficeByCodeFromCSV(code.trim()));
+    }
+
+    @GetMapping("/collection/{code}")
+    public ResponseEntity<OperationOfficeDTO> getPostByIdFromCollection(@PathVariable(name = "code")
+                                                          @NotBlank(message = "Die Abkürzung kann nicht leer sein!")
+                                                          @Size(max = 6, min = 2, message = "Die Abkürzung muss mindestens 2 Zeichen und maximal 6 Zeichen enthalten!")
+                                                          @Pattern(regexp = "^[^0-9][a-zA-Z0-9 ]*")
+                                                          @Valid String code) throws IOException {
+        return ResponseEntity.ok(iOperationOfficeService.getOperationOfficeByCodeFromCollection(code.trim()));
     }
 
     @PreAuthorize("hasRole('DEUTSCHEBAHN')")

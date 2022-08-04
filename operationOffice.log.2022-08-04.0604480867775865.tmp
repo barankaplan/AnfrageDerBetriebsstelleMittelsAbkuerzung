@@ -1,0 +1,532 @@
+2022-08-04 21:00:50,252 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Securing GET /api/betriebsstelle/dkw g
+2022-08-04 21:00:50,254 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:00:50,254 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:00:50,254 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-3] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:00:50,254 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-3] Authorized filter invocation [GET /api/betriebsstelle/dkw g] with attributes [permitAll]
+2022-08-04 21:00:50,254 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Secured GET /api/betriebsstelle/dkw g
+2022-08-04 21:00:50,255 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-3] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:00:50.255367
+2022-08-04 21:00:50,257 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Cleared SecurityContextHolder to complete request
+2022-08-04 21:00:57,728 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-4] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:00:57,728 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-4] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:00:57,728 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:00:57,729 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-4] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:00:57,729 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-4] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:00:57,729 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-4] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:00:57,730 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-4] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:00:57.730187
+2022-08-04 21:00:57,732 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-4] Cleared SecurityContextHolder to complete request
+2022-08-04 21:04:13,440 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:04:13,440 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:04:14,432 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:04:14,441 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:04:17,665 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 28838 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:04:17,666 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:04:17,696 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:04:17,696 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:04:18,251 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:04:18,307 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:04:18,830 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:04:18,836 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:04:18,836 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:04:18,913 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:04:18,913 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1217 ms
+2022-08-04 21:04:19,038 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:04:19,085 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:04:19,232 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:04:19,301 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:04:21,073 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:04:21,090 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:04:21,900 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:04:21,900 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:04:22,020 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:04:22,020 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:04:22,141 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:04:22,142 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:04:22,261 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:04:22,261 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:04:22,380 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:04:22,380 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:04:22,499 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:04:22,499 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:04:22,619 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:04:22,619 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:04:23,614 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:04:23,622 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:04:24,075 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:04:24,083 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:04:24,190 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:04:24,191 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:04:24,191 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:04:24,195 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@218b086, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ac79c78, org.springframework.security.web.header.HeaderWriterFilter@1d79e701, org.springframework.security.web.authentication.logout.LogoutFilter@3095e877, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@63bde993, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f6d45ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e8c0cd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6607353a, org.springframework.security.web.session.SessionManagementFilter@39d76a0e, org.springframework.security.web.access.ExceptionTranslationFilter@2f6290ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@161b037a]
+2022-08-04 21:04:24,835 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:04:24,865 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:04:24,876 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.489 seconds (JVM running for 8.243)
+2022-08-04 21:04:45,760 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 21:04:45,760 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-04 21:04:45,762 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2022-08-04 21:04:45,769 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:04:45,772 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:04:45,775 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:04:45,775 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-2] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:04:45,779 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-2] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:04:45,779 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:04:45,861 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-2] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:04:45.861365
+2022-08-04 21:04:46,029 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Cleared SecurityContextHolder to complete request
+2022-08-04 21:07:25,887 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:07:25,887 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:07:26,863 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:07:26,871 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:07:30,243 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 29281 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:07:30,243 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:07:30,273 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:07:30,274 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:07:30,816 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:07:30,878 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:07:31,390 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:07:31,396 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:07:31,396 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:07:31,460 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:07:31,461 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1187 ms
+2022-08-04 21:07:31,585 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:07:31,630 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:07:31,778 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:07:31,850 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:07:33,588 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:07:33,604 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:07:34,435 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:07:34,435 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:07:34,557 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:07:34,557 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:07:34,677 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:07:34,677 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:07:34,799 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:07:34,799 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:07:34,918 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:07:34,919 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:07:35,037 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:07:35,037 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:07:35,186 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:07:35,186 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:07:36,187 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:07:36,195 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:07:36,666 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:07:36,676 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:07:36,774 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:07:36,776 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:07:36,776 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:07:36,780 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@465d2909, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d388405, org.springframework.security.web.header.HeaderWriterFilter@72cee6b7, org.springframework.security.web.authentication.logout.LogoutFilter@6a824a09, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@2a5b1d48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b757def, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4622545f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3403c880, org.springframework.security.web.session.SessionManagementFilter@507806d6, org.springframework.security.web.access.ExceptionTranslationFilter@719bffc5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c17a5dd]
+2022-08-04 21:07:37,385 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:07:37,415 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:07:37,426 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.46 seconds (JVM running for 8.196)
+2022-08-04 21:07:41,575 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 21:07:41,575 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-04 21:07:41,576 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2022-08-04 21:07:41,583 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:07:41,587 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:07:41,589 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:07:41,589 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-2] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:07:41,593 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-2] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:07:41,593 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:07:41,671 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-2] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:07:41.671427
+2022-08-04 21:07:41,837 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Cleared SecurityContextHolder to complete request
+2022-08-04 21:07:51,078 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:07:51,078 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:07:51,078 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:07:51,078 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-3] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:07:51,079 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-3] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:07:51,079 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:07:51,080 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-3] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:07:51.080069
+2022-08-04 21:07:51,163 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Cleared SecurityContextHolder to complete request
+2022-08-04 21:10:03,560 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:10:03,560 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:10:04,534 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:10:04,541 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:10:07,860 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 29644 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:10:07,860 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:10:07,896 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:10:07,896 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:10:08,425 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:10:08,484 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:10:09,044 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:10:09,050 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:10:09,050 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:10:09,105 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:10:09,106 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1210 ms
+2022-08-04 21:10:09,217 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:10:09,253 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:10:09,361 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:10:09,421 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:10:11,154 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:10:11,169 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:10:11,995 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:11,995 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:10:12,115 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:12,115 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:10:12,235 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:12,235 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:10:12,362 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:12,363 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:10:12,484 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:12,485 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:10:12,603 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:12,604 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:10:12,723 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:12,724 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:10:13,727 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:10:13,735 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:10:14,176 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:10:14,184 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:10:14,290 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:10:14,292 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:10:14,292 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:10:14,296 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cf0140b, org.springframework.security.web.context.SecurityContextPersistenceFilter@735b56c3, org.springframework.security.web.header.HeaderWriterFilter@132cf1ae, org.springframework.security.web.authentication.logout.LogoutFilter@1d5e98b1, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@7554de36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c5be7a6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@279ca54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@668315a, org.springframework.security.web.session.SessionManagementFilter@43890e34, org.springframework.security.web.access.ExceptionTranslationFilter@61716f6e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@556a47df]
+2022-08-04 21:10:14,937 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:10:14,966 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:10:14,975 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.377 seconds (JVM running for 8.158)
+2022-08-04 21:10:19,711 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 21:10:19,712 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-04 21:10:19,713 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2022-08-04 21:10:19,720 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:10:19,723 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:10:19,725 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:10:19,725 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-2] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:10:19,729 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-2] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:10:19,729 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:10:19,816 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-2] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:10:19.816251
+2022-08-04 21:10:19,973 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Cleared SecurityContextHolder to complete request
+2022-08-04 21:10:45,299 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:10:45,299 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:10:46,279 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:10:46,283 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:10:49,440 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 29743 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:10:49,441 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:10:49,471 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:10:49,471 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:10:49,968 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:10:50,031 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:10:50,586 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:10:50,592 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:10:50,592 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:10:50,659 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:10:50,659 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1187 ms
+2022-08-04 21:10:50,773 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:10:50,819 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:10:50,938 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:10:51,000 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:10:52,723 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:10:52,738 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:10:53,553 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:53,554 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:10:53,675 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:53,676 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:10:53,796 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:53,796 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:10:53,919 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:53,919 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:10:54,038 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:54,038 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:10:54,157 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:54,157 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:10:54,283 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:10:54,284 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:10:55,293 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:10:55,300 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:10:55,757 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:10:55,765 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:10:55,865 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:10:55,867 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:10:55,867 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:10:55,871 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58ff392a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1deb314f, org.springframework.security.web.header.HeaderWriterFilter@e40f3a9, org.springframework.security.web.authentication.logout.LogoutFilter@2473ad74, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@513cb30a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e77d5d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b1cdca2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3526f948, org.springframework.security.web.session.SessionManagementFilter@193b9630, org.springframework.security.web.access.ExceptionTranslationFilter@1c298089, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31ed72e9]
+2022-08-04 21:10:56,493 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:10:56,519 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:10:56,530 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.359 seconds (JVM running for 7.94)
+2022-08-04 21:11:24,623 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:11:24,623 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:11:25,629 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:11:25,640 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:11:28,683 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 29843 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:11:28,683 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:11:28,721 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:11:28,721 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:11:29,222 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:11:29,281 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:11:29,864 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:11:29,871 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:11:29,871 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:11:29,957 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:11:29,957 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1236 ms
+2022-08-04 21:11:30,071 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:11:30,121 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:11:30,216 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:11:30,273 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:11:32,036 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:11:32,052 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:11:32,911 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:11:32,911 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:11:33,030 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:11:33,030 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:11:33,152 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:11:33,152 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:11:33,272 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:11:33,272 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:11:33,392 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:11:33,392 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:11:33,511 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:11:33,511 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:11:33,630 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:11:33,630 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:11:34,642 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:11:34,650 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:11:35,112 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:11:35,121 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:11:35,211 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:11:35,213 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:11:35,213 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:11:35,217 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1034e0fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d81b943, org.springframework.security.web.header.HeaderWriterFilter@7274791b, org.springframework.security.web.authentication.logout.LogoutFilter@2c1da7c5, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@3ece08bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2016a561, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47ecf13a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37b2cc4, org.springframework.security.web.session.SessionManagementFilter@127b8322, org.springframework.security.web.access.ExceptionTranslationFilter@5c07550, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10b6135b]
+2022-08-04 21:11:35,857 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:11:35,889 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:11:35,901 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.502 seconds (JVM running for 8.069)
+2022-08-04 21:11:39,531 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 21:11:39,531 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-04 21:11:39,532 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2022-08-04 21:11:39,538 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:11:39,541 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:11:39,543 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:11:39,543 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-2] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:11:39,546 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-2] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:11:39,547 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:11:39,623 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-2] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:11:39.622710
+2022-08-04 21:11:39,782 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Cleared SecurityContextHolder to complete request
+2022-08-04 21:11:49,741 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:11:49,742 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:11:49,742 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:11:49,742 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-3] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:11:49,742 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-3] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:11:49,742 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:11:49,743 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-3] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:11:49.743622
+2022-08-04 21:11:49,833 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Cleared SecurityContextHolder to complete request
+2022-08-04 21:11:54,431 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-4] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:11:54,431 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-4] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:11:54,431 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:11:54,431 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-4] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:11:54,432 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-4] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:11:54,432 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-4] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:11:54,433 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-4] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:11:54.433102
+2022-08-04 21:11:54,518 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-4] Cleared SecurityContextHolder to complete request
+2022-08-04 21:12:39,699 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:12:39,699 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:12:40,696 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:12:40,704 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:12:43,987 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 30020 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:12:43,987 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:12:44,020 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:12:44,020 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:12:44,539 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:12:44,618 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:12:45,177 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:12:45,183 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:12:45,183 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:12:45,268 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:12:45,268 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1248 ms
+2022-08-04 21:12:45,388 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:12:45,445 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:12:45,565 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:12:45,630 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:12:47,390 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:12:47,405 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:12:48,245 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:12:48,245 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:12:48,367 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:12:48,367 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:12:48,486 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:12:48,486 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:12:48,608 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:12:48,608 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:12:48,730 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:12:48,730 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:12:48,850 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:12:48,850 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:12:48,969 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:12:48,970 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:12:49,969 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:12:49,978 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:12:50,418 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:12:50,427 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:12:50,518 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:12:50,520 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:12:50,520 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:12:50,524 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72a15516, org.springframework.security.web.context.SecurityContextPersistenceFilter@6cee1ec1, org.springframework.security.web.header.HeaderWriterFilter@ca7b174, org.springframework.security.web.authentication.logout.LogoutFilter@29ab4110, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@30128dbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f5f82cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d1cf77b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64611313, org.springframework.security.web.session.SessionManagementFilter@332d26d3, org.springframework.security.web.access.ExceptionTranslationFilter@755062de, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54d5ddd9]
+2022-08-04 21:12:51,135 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:12:51,162 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:12:51,172 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.451 seconds (JVM running for 8.279)
+2022-08-04 21:12:54,953 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 21:12:54,954 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-04 21:12:54,955 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2022-08-04 21:12:54,961 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:12:54,964 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:12:54,966 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:12:54,967 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-2] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:12:54,970 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-2] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:12:54,970 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:12:55,050 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-2] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:12:55.050199
+2022-08-04 21:12:55,220 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Cleared SecurityContextHolder to complete request
+2022-08-04 21:13:03,971 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:13:03,971 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:13:03,971 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:13:03,971 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-3] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:13:03,972 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-3] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:13:03,972 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:13:03,973 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-3] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:13:03.973191
+2022-08-04 21:13:03,975 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Cleared SecurityContextHolder to complete request
+2022-08-04 21:13:09,591 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-4] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:13:09,591 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-4] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:13:09,591 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:13:09,592 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-4] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:13:09,592 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-4] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:13:09,592 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-4] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:13:09,593 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-4] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:13:09.593166
+2022-08-04 21:13:09,595 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-4] Cleared SecurityContextHolder to complete request
+2022-08-04 21:19:12,825 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:19:12,826 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:19:13,804 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:19:13,814 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:19:17,287 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 30945 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:19:17,288 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:19:17,320 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:19:17,320 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:19:17,849 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:19:17,905 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:19:18,429 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:19:18,436 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:19:18,436 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:19:18,518 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:19:18,518 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1198 ms
+2022-08-04 21:19:18,636 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:19:18,675 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:19:18,792 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:19:18,857 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:19:20,647 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:19:20,660 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:19:21,490 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:19:21,490 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:19:21,610 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:19:21,610 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:19:21,730 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:19:21,731 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:19:21,852 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:19:21,852 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:19:21,972 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:19:21,972 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:19:22,094 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:19:22,094 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:19:22,218 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:19:22,218 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:19:23,233 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:19:23,242 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:19:23,681 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:19:23,689 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:19:23,776 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:19:23,778 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:19:23,778 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:19:23,782 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e1e6f2a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fa772d7, org.springframework.security.web.header.HeaderWriterFilter@3c110662, org.springframework.security.web.authentication.logout.LogoutFilter@772fca21, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@552ef9f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c6c741e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4736baa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ec6da4e, org.springframework.security.web.session.SessionManagementFilter@79dc60cc, org.springframework.security.web.access.ExceptionTranslationFilter@539a0f7a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d53b2fc]
+2022-08-04 21:19:24,391 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:19:24,418 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:19:24,427 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.404 seconds (JVM running for 8.127)
+2022-08-04 21:19:30,231 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 21:19:30,232 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-04 21:19:30,233 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2022-08-04 21:19:30,240 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:19:30,243 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:19:30,245 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:19:30,246 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-2] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:19:30,249 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-2] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:19:30,250 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:19:30,341 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-2] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:19:30.340541
+2022-08-04 21:19:30,593 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Cleared SecurityContextHolder to complete request
+2022-08-04 21:19:59,819 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:19:59,819 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:20:00,872 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:20:00,881 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:20:04,011 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 31055 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:20:04,011 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:20:04,042 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:20:04,042 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:20:04,542 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:20:04,606 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:20:05,125 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:20:05,131 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:20:05,132 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:20:05,222 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:20:05,222 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1180 ms
+2022-08-04 21:20:05,349 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:20:05,404 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:20:05,523 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:20:05,587 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:20:07,390 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:20:07,406 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:20:08,228 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:20:08,228 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:20:08,348 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:20:08,348 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping
+2022-08-04 21:20:08,468 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:20:08,468 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "operation_office" does not exist, skipping
+2022-08-04 21:20:08,587 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:20:08,587 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "roles" does not exist, skipping
+2022-08-04 21:20:08,708 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:20:08,708 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users" does not exist, skipping
+2022-08-04 21:20:08,828 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:20:08,828 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] table "users_roles" does not exist, skipping
+2022-08-04 21:20:08,948 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:20:08,949 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] sequence "hibernate_sequence" does not exist, skipping
+2022-08-04 21:20:09,952 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 21:20:09,960 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:20:10,394 [DEBUG] org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource [restartedMain] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('DEUTSCHEBAHN')") found on specific method: public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException
+2022-08-04 21:20:10,402 [DEBUG] org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource [restartedMain] Caching method [CacheKey[com.deutschebahn.rest.controller.OperationOfficeController; public org.springframework.http.ResponseEntity com.deutschebahn.rest.controller.OperationOfficeController.getPostByIdSecure(java.lang.String) throws java.io.IOException]] with attributes [[authorize: 'hasRole('DEUTSCHEBAHN')', filter: 'null', filterTarget: 'null']]
+2022-08-04 21:20:10,491 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/**']
+2022-08-04 21:20:10,492 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [permitAll] for Ant [pattern='/api/auth/**']
+2022-08-04 21:20:10,492 [DEBUG] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource [restartedMain] Adding web access control expression [authenticated] for any request
+2022-08-04 21:20:10,496 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@558f40ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@520ce030, org.springframework.security.web.header.HeaderWriterFilter@71d30072, org.springframework.security.web.authentication.logout.LogoutFilter@220e290c, com.deutschebahn.rest.data.security.JWTAuthenticationFilter@625617b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@532d7c0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f096d1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e83710c, org.springframework.security.web.session.SessionManagementFilter@52b7ffeb, org.springframework.security.web.access.ExceptionTranslationFilter@7ad7466e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76c762d4]
+2022-08-04 21:20:11,135 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-04 21:20:11,163 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-04 21:20:11,172 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Started AnfrageDerBetriebsstelleMittelsAbkuerzungApplication in 7.479 seconds (JVM running for 8.071)
+2022-08-04 21:20:16,037 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 21:20:16,037 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-04 21:20:16,038 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2022-08-04 21:20:16,044 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:20:16,047 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:20:16,048 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:20:16,049 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-2] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:20:16,052 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-2] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:20:16,052 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-2] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:20:16,141 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-2] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:20:16.141030
+2022-08-04 21:20:16,295 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-2] Cleared SecurityContextHolder to complete request
+2022-08-04 21:20:27,629 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Securing GET /api/betriebsstelle/aamp
+2022-08-04 21:20:27,630 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Set SecurityContextHolder to empty SecurityContext
+2022-08-04 21:20:27,630 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8082-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2022-08-04 21:20:27,630 [DEBUG] org.springframework.security.web.session.SessionManagementFilter [http-nio-8082-exec-3] Request requested invalid session id 24A9BD60C36F4EA1F1F4D27710CE1767
+2022-08-04 21:20:27,631 [DEBUG] org.springframework.security.web.access.intercept.FilterSecurityInterceptor [http-nio-8082-exec-3] Authorized filter invocation [GET /api/betriebsstelle/aamp] with attributes [permitAll]
+2022-08-04 21:20:27,631 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8082-exec-3] Secured GET /api/betriebsstelle/aamp
+2022-08-04 21:20:27,632 [INFO] com.deutschebahn.rest.service.OperationOfficeService [http-nio-8082-exec-3] now we are inside of the method called getOperationOfficeByCode : 2022-08-04T21:20:27.632374
+2022-08-04 21:20:27,724 [DEBUG] org.springframework.security.web.context.SecurityContextPersistenceFilter [http-nio-8082-exec-3] Cleared SecurityContextHolder to complete request
+2022-08-04 21:22:15,617 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 21:22:15,617 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-04 21:22:16,604 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-04 21:22:16,612 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-08-04 21:22:19,727 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] Starting AnfrageDerBetriebsstelleMittelsAbkuerzungApplication using Java 11.0.12 on Barans-MacBook-Pro-4.local with PID 31369 (/Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung/target/classes started by barankaplan in /Users/barankaplan/Desktop/github/DeutscheBahn/AnfrageDerBetriebsstelleMittelsAbkuerzung)
+2022-08-04 21:22:19,728 [INFO] com.deutschebahn.rest.AnfrageDerBetriebsstelleMittelsAbkuerzungApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-04 21:22:19,765 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 21:22:19,765 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 21:22:20,304 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 21:22:20,366 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2022-08-04 21:22:20,927 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2022-08-04 21:22:20,934 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-04 21:22:20,934 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-04 21:22:20,990 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-04 21:22:20,991 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1225 ms
+2022-08-04 21:22:21,108 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 21:22:21,155 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-08-04 21:22:21,268 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 21:22:21,334 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-08-04 21:22:23,085 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-08-04 21:22:23,097 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-08-04 21:22:23,925 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] SQL Warning Code: 0, SQLState: 00000
+2022-08-04 21:22:23,925 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] relation "users_roles" does not exist, skipping

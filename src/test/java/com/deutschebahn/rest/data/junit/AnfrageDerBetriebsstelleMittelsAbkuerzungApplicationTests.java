@@ -5,16 +5,13 @@ import com.deutschebahn.rest.data.entity.OperationOffice;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.MutablePropertyValues;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.function.Function;
-import java.util.function.IntUnaryOperator;
 import java.util.function.Predicate;
-import java.util.stream.IntStream;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -25,7 +22,7 @@ class AnfrageDerBetriebsstelleMittelsAbkuerzungApplicationTests {
 
     @BeforeEach
     public void setup() {
-        operationOffices = OperationOfficeFactory.getOperationOffices();
+        operationOffices = OperationOfficeFactory.getOperationOfficesLoadFromCSVFile();
 
     }
 

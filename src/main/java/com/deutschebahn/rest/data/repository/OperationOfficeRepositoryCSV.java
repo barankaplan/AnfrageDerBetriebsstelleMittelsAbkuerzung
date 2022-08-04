@@ -18,12 +18,23 @@ public class OperationOfficeRepositoryCSV implements IOperationOfficeRepositoryC
     }
 
     @Override
-    public OperationOfficeDTO getOperationOfficeByCode(String code) {
-        return operationOfficeApplicationDAL.getOperationOfficeByCode(code);
+    public OperationOfficeDTO getOperationOfficeByCodeFromCSV(String code) {
+        return operationOfficeApplicationDAL.getOperationOfficeByCodeFromCSV(code);
     }
 
     @Override
-    public Set<OperationOffice> getOperationOffices() {
-        return operationOfficeApplicationDAL.getOperationOffices();
+    public OperationOfficeDTO getOperationOfficeByCodeFromCollection(String code) {
+        return operationOfficeApplicationDAL.getOperationOfficeByCodeFromCollection(code);
+    }
+
+    @Override
+    public Set<OperationOffice> getOperationOfficesFromCSV() {
+        return operationOfficeApplicationDAL.getOperationOfficesFromCSV();
+    }
+
+
+    @Override
+    public Set<OperationOffice> getOperationOfficesFromCollection() {
+        return operationOfficeApplicationDAL.getOperationOfficesFromCollection();
     }
 }

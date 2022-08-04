@@ -8,7 +8,11 @@ import java.util.Set;
 
 
 public interface IOperationOfficeRepositoryCSV {
-    OperationOfficeDTO getOperationOfficeByCode(String code) throws IOException;
+    OperationOfficeDTO getOperationOfficeByCodeFromCSV(String code) throws IOException;
 
-    Set<OperationOffice> getOperationOffices();
+    OperationOfficeDTO getOperationOfficeByCodeFromCollection(String code);
+
+    Set<OperationOffice> getOperationOfficesFromCSV();
+
+    Set<OperationOffice> getOperationOfficesFromCollection();
 }

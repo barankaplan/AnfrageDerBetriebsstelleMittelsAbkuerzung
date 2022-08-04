@@ -12,6 +12,9 @@ import java.util.function.Predicate;
 public class OperationOfficeFactory {
 
 
+    private static OperationOfficeFactory operationOfficeFactoryReadOnce= new OperationOfficeFactory();
+    private static int readFromCollection;
+    private static int readAlwaysFromFile;
     private final Set<OperationOffice> OPERATION_OFFICES = new LinkedHashSet<>();
 
     private OperationOfficeFactory() {
@@ -42,7 +45,33 @@ public class OperationOfficeFactory {
     }
 
 
-    private static Optional<OperationOfficeFactory> loadFromTextFile(String path) throws IOException {
+    private static Optional<OperationOfficeFactory> loadFromCollectionOnce(String path) throws IOException {
+        Optional<OperationOfficeFactory> result = Optional.empty();
+
+        try (var br = Files.newBufferedReader(Path.of(path), StandardCharsets.UTF_8)) {
+            if (br.readLine() == null ) return result;
+
+            String line;
+            if (!operationOfficeFactoryReadOnce.OPERATION_OFFICES.isEmpty()){
+                result = Optional.of(operationOfficeFactoryReadOnce);
+                System.out.println("reading from collection:"+ readFromCollection);
+                System.out.println("operationOfficeFactory size:"+operationOfficeFactoryReadOnce.OPERATION_OFFICES.size());
+                return result;
+            }
+
+            while ((line = br.readLine()) != null){
+                readFromCollection++;
+                operationOfficeFactoryReadOnce.OPERATION_OFFICES.add(getOperationOffice(line));
+            }
+
+            result = Optional.of(operationOfficeFactoryReadOnce);
+        }
+        System.out.println("reading from csv:"+ readFromCollection);
+        System.out.println("operationOfficeFactory size:"+operationOfficeFactoryReadOnce.OPERATION_OFFICES.size());
+
+        return result;
+    }
+    private static Optional<OperationOfficeFactory> loadFromCSVFile(String path) throws IOException {
         Optional<OperationOfficeFactory> result = Optional.empty();
 
         try (var br = Files.newBufferedReader(Path.of(path), StandardCharsets.UTF_8)) {
@@ -51,19 +80,46 @@ public class OperationOfficeFactory {
             var operationOfficeFactory = new OperationOfficeFactory();
             String line;
 
-            while ((line = br.readLine()) != null)
+            while ((line = br.readLine()) != null){
                 operationOfficeFactory.OPERATION_OFFICES.add(getOperationOffice(line));
-
+                readAlwaysFromFile++;
+            }
             result = Optional.of(operationOfficeFactory);
+            System.out.println("reading from csv: "+ readAlwaysFromFile);
+            System.out.println("operationOfficeFactory size: "+ result.get().OPERATION_OFFICES.size());
         }
 
         return result;
     }
 
 
-    public static Optional<OperationOffice> getOperationOfficeByCode(String code) {
+    public static Optional<OperationOffice> getOperationOfficeByCodeFromCSV(String code) {
         try {
-            var productFactory = OperationOfficeFactory.loadFromTextFile("src/main/resources/Kaplan-DBNetz.csv");
+
+
+            var productFactory = OperationOfficeFactory.loadFromCSVFile("src/main/resources/Kaplan-DBNetz.csv");
+
+            Set<OperationOffice> operationOffices = null;
+            if (productFactory.isPresent()) {
+                operationOffices = productFactory.get().OPERATION_OFFICES;
+            }
+
+            Predicate<OperationOffice> operationOfficePredicate = oo -> Objects.equals(oo.getCode(), code.toUpperCase(Locale.ROOT));
+
+            var operationOffice = operationOffices.stream().filter(operationOfficePredicate).findFirst();
+
+            return operationOffice;
+        } catch (Throwable ex) {
+            ex.printStackTrace();
+            return Optional.empty();
+
+        }
+    }
+    public static Optional<OperationOffice> getOperationOfficeByCodeFromCollection(String code) {
+        try {
+
+
+            var productFactory = OperationOfficeFactory.loadFromCollectionOnce("src/main/resources/Kaplan-DBNetz.csv");
 
             Set<OperationOffice> operationOffices = null;
             if (productFactory.isPresent()) {
@@ -82,11 +138,26 @@ public class OperationOfficeFactory {
         }
     }
 
-    public static Set<OperationOffice> getOperationOffices() {
+    public static Set<OperationOffice> getOperationOfficesLoadFromCSVFile() {
         try {
-            var productFactory = OperationOfficeFactory.loadFromTextFile("src/main/resources/Kaplan-DBNetz.csv");
 
-            var operationOffices = productFactory.get().OPERATION_OFFICES;
+            var operationOfficeFactory = OperationOfficeFactory.loadFromCSVFile("src/main/resources/Kaplan-DBNetz.csv");
+
+            var operationOffices = operationOfficeFactory.get().OPERATION_OFFICES;
+
+            return operationOffices;
+
+        } catch (Throwable ex) {
+            ex.printStackTrace();
+        }
+        return Collections.emptySet();
+    }
+    public static Set<OperationOffice> getOperationOfficesLoadFromCollectionOnce() {
+        try {
+
+            var operationOfficeFactory = OperationOfficeFactory.loadFromCollectionOnce("src/main/resources/Kaplan-DBNetz.csv");
+
+            var operationOffices = operationOfficeFactory.get().OPERATION_OFFICES;
 
             return operationOffices;
 

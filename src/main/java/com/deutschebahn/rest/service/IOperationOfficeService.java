@@ -8,7 +8,11 @@ import java.util.List;
 
 public interface IOperationOfficeService {
 
-    OperationOfficeDTO getOperationOfficeByCode(String code) throws IOException;
+//    OperationOfficeDTO getOperationOfficeByCode(String code) throws IOException;
+
+    OperationOfficeDTO getOperationOfficeByCodeFromCSV(String code) throws IOException;
+
+    OperationOfficeDTO getOperationOfficeByCodeFromCollection(String code) throws IOException;
 
     OperationOfficeDTO getOperationOfficeByCodeAdmin(String code) throws IOException;
 

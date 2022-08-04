@@ -23,14 +23,25 @@ public class OperationOfficeApplicationDAL {
         return operationOfficeOptional.map(iOperationOfficeMapper::toOperationOfficeDTO).orElseThrow(() -> new ResourceNotFoundException("OperationOffice", "code", code));
     }
 
-    public OperationOfficeDTO getOperationOfficeByCode(String code) {
-        Optional<OperationOffice> operationOffice = OperationOfficeFactory.getOperationOfficeByCode(code);
+    public OperationOfficeDTO getOperationOfficeByCodeFromCSV(String code) {
+        Optional<OperationOffice> operationOffice = OperationOfficeFactory.getOperationOfficeByCodeFromCSV(code);
         assert Objects.requireNonNull(operationOffice).isPresent();
         return getOperationOfficeDTO(code, operationOffice);
     }
 
-    public Set<OperationOffice> getOperationOffices() {
-        return OperationOfficeFactory.getOperationOffices();
+    public OperationOfficeDTO getOperationOfficeByCodeFromCollection(String code) {
+        Optional<OperationOffice> operationOffice = OperationOfficeFactory.getOperationOfficeByCodeFromCollection(code);
+        assert Objects.requireNonNull(operationOffice).isPresent();
+        return getOperationOfficeDTO(code, operationOffice);
+    }
+
+    public Set<OperationOffice> getOperationOfficesFromCSV() {
+        return OperationOfficeFactory.getOperationOfficesLoadFromCSVFile();
+    }
+
+
+    public Set<OperationOffice> getOperationOfficesFromCollection() {
+        return OperationOfficeFactory.getOperationOfficesLoadFromCollectionOnce();
     }
 
 

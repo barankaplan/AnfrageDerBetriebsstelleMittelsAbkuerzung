@@ -199,6 +199,18 @@ unterschiedlichen Zeiten schreibt, wird nur 1 aufgenommen!
 <img width="953" alt="Screenshot 2022-08-02 at 02 12 55" src="https://user-images.githubusercontent.com/59101253/182265482-2361cb57-7ea5-431a-b877-401dfd307be3.png">
 
 
+-04.08.22
+-Am Anfang des Projekts stand die Idee, dass sich bei jeder Abfrage die csv-Daten ändern könnten, sodass die csv-Datei direkt Zeile für Zeile gelesen wird, um die aktuellsten Daten zu übertragen.
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+Zusätzlich wurde nach dem einmaligen Auslesen der csv-Datei der Link http://localhost:8082/api/betriebsstelle/collection/{code} angelegt, um die Daten statisch zu halten und so die Daten in der Collection auszulesen.
+![img_3.png](img_3.png)
+
+-Auf diese Weise wird ersichtlich, dass die Lesegeschwindigkeit durch Beobachten von Logging Daten zunimmt. Allerdings bleibt, wie anfangs erwähnt, der Status der erstmalig gelesenen Daten erhalten!
+
+![img_4.png](img_4.png)
+
 Zusätzliche Verbesserungen
 
 
