@@ -5,6 +5,7 @@ import com.deutschebahn.rest.data.security.JWTAuthenticationEntryPoint;
 import com.deutschebahn.rest.data.security.JWTAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -53,9 +54,12 @@ public class SecurityConfiguration {
                 .authorizeRequests((authorize) -> authorize
                         .antMatchers("/api/**").permitAll()
                         .antMatchers("/api/auth/**").permitAll()
+                        .antMatchers(HttpMethod.GET,"/**").anonymous()
                         .anyRequest()
                         .authenticated()
                 );
+//        http.cors();
+
         http.addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
         return http.build();
     }
