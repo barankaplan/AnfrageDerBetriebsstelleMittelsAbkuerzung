@@ -1,14 +1,9 @@
 # AnfrageDerBetriebsstelleMittelsAbkuerzung
 
-Aufgabe
 
 Erstellen Sie ein Programm, das die Daten aus der CSV-Datei einliest und über einen REST-Endpoint zur Verfügung stellt. Der Endpunkt soll mit der Abkürzung einer Betriebsstelle angefragt werden und die Daten der Betriebsstelle als JSON-Objekt zurück liefern.
 
-Tipp
 
-Für die Lösung dieser Aufgabe kann man sehr gut Java und SpringBoot einsetzen. Sie können aber auch andere Technologien nutzen.
-
-Den Code können Sie uns gerne in einem öffentlichen git-repo (z. B. Github) zur Verfügung stellen.
 
 Beispiel-Request:
 
@@ -27,17 +22,6 @@ HTTP-STATUS: 200
   Typ: Üst
 
 }
-
-
--Die Aufgabe im Bild unten wird im Projekt behandelt. Da es keine direkte
-Anleitung zu Parametern wie Sicherheit und Datenbanken in CSV Daten und Code
-gibt, sind die von mir entworfenen Add-Ons unten ausgeführt, und am Ende ist
-einen weiteren Hinweis als "fortgeschrittene Studien" hinzugefügt
-worden.
-
-
-
-![image](https://user-images.githubusercontent.com/59101253/182144069-32834183-681f-4cbe-909f-e0106c22710e.png)
 
 
 
@@ -215,6 +199,13 @@ unterschiedlichen Zeiten schreibt, wird nur 1 aufgenommen!
 -Auf diese Weise wird ersichtlich, dass die Lesegeschwindigkeit durch Beobachten von Logging Daten zunimmt. Allerdings bleibt, wie anfangs erwähnt, der Status der erstmalig gelesenen Daten erhalten!
 
 <img width="1094" alt="Screenshot 2022-08-05 at 00 07 59" src="https://user-images.githubusercontent.com/59101253/182961082-abbf3b53-d680-485a-b31d-1883cb94f18f.png">
+
+-08-08-22
+
+-every app deserves front end! 
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/59101253/186783376-a01a07bd-f22b-4ebb-a063-0d4e6187455b.gif)
+
 
 
 Zusätzliche Verbesserungen
