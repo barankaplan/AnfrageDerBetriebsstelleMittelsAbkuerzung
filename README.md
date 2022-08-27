@@ -1,31 +1,7 @@
 # AnfrageDerBetriebsstelleMittelsAbkuerzung
 
 
-Erstellen Sie ein Programm, das die Daten aus der CSV-Datei einliest und über einen REST-Endpoint zur Verfügung stellt. Der Endpunkt soll mit der Abkürzung einer Betriebsstelle angefragt werden und die Daten der Betriebsstelle als JSON-Objekt zurück liefern.
-
-
-
-Beispiel-Request:
-
-.../betriebsstelle/aamp
-
-Beispiel-Response:
-
-HTTP-STATUS: 200
-
-{
-
-  Name: Hamburg Anckelmannsplatz      
-
-  Kurzname: Anckelmannsplatz  
-
-  Typ: Üst
-
-}
-
-
-
-
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/59101253/186783858-e200c6d5-756d-45b5-b9c6-7ef038a8e4f6.gif)
 
 -CSV-Daten wurden untersucht und es wurde entschieden, mit "Set Data Struktur" zu arbeiten, da die Werte in der RL100-Code-Spalte eindeutig
 sind und die Suche durch diese Spalte bearbeitet wird.
@@ -95,9 +71,8 @@ Obwohl es nicht direkt mit dem Konzept des Testens zusammenhängt, wurde die Met
 -Collection link in Postman:  https://www.getpostman.com/collections/a259b863777eadeb1f6b
 
 
+<img width="829" alt="Screenshot 2022-08-27 at 23 54 08" src="https://user-images.githubusercontent.com/59101253/187049271-05f359eb-2a18-4f92-9215-8464d0d8a01b.png">
 
-
-<img width="745" alt="Screenshot 2022-08-01 at 14 18 34" src="https://user-images.githubusercontent.com/59101253/182146075-3cab0328-f7d9-4c0a-824c-f1b32d54257e.png">
 
 
 
@@ -142,8 +117,9 @@ verschiedene Fehlermeldungen angezeigt.
 -Eine einfache Benutzerregistrierung und ein Login-Code wurden entwickelt. Das Passwort ist verschlüsselt und die APIs Connection wird mit JWT bereitgestellt.
 
 
+<img width="512" alt="Screenshot 2022-08-27 at 23 55 28" src="https://user-images.githubusercontent.com/59101253/187049298-dc9209cb-9867-4b0e-b923-bb26fd869fe9.png">
 
-<img width="800" alt="Screenshot 2022-08-01 at 14 17 27" src="https://user-images.githubusercontent.com/59101253/182145912-fd081b74-ed12-45d9-a84e-356c9c303df8.png">
+<img width="989" alt="Screenshot 2022-08-27 at 23 55 41" src="https://user-images.githubusercontent.com/59101253/187049304-f3d59632-2c99-4364-a951-9548c7f75e1c.png">
 
 
 
@@ -200,11 +176,6 @@ unterschiedlichen Zeiten schreibt, wird nur 1 aufgenommen!
 
 <img width="1094" alt="Screenshot 2022-08-05 at 00 07 59" src="https://user-images.githubusercontent.com/59101253/182961082-abbf3b53-d680-485a-b31d-1883cb94f18f.png">
 
--08-08-22
-
--every app deserves front end! 
-
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/59101253/186783376-a01a07bd-f22b-4ebb-a063-0d4e6187455b.gif)
 
 
 
@@ -231,9 +202,6 @@ Zusätzliche Verbesserungen
      
 - Spring MVC + Angular
 
-
-
- 
 
 
 
